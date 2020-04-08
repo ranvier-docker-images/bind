@@ -1,0 +1,12 @@
+$TTL 86400
+
+@ IN SOA {EXAMPLE}.net root.{EXAMPLE}.net (
+  2017062705
+  3600
+  900
+  604800
+  86400
+)
+
+@      IN NS {DNS_SERVER_HOSTNAME}
+{DNS_SERVER_HOSTNAME} IN A  xxx.xxx.xxx.xxx
