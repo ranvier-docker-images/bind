@@ -1,5 +1,5 @@
 #!/bin/bash
 
-docker build . -t decaby7e/bind:latest
+docker build -t ranvier/bind:latest .
 
 exit 0
